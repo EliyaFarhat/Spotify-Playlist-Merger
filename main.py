@@ -55,7 +55,7 @@ if __name__ == '__main__':
                                                            scope=scopes))
 
     try:
-        merge_playlists(get_playlist_content(sp, "0ZKp5BDTsI1sJambW6SYKZ"), get_playlist_content(sp, "36rbHjuwdr4nUMMJThLMv8"))
+        merge_playlists(get_playlist_content(sp, ""), get_playlist_content(sp, ""))
     except spotipy.SpotifyOauthError as e:
         sp = spotipy.Spotify(auth_manager=spotipy.SpotifyOAuth(client_id=client_id,
                                                        client_secret=client_secret,
