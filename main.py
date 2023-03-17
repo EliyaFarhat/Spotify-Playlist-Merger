@@ -31,7 +31,6 @@ def merge_playlists(first_content, second_content):
     '''
     del first_content[0]
     id2 = second_content.pop(0)
-    print(id2)
 
     add_content = list()
     for uri in first_content:
