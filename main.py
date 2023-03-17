@@ -34,7 +34,7 @@ def merge_playlists(first_content, second_content):
 
     add_content = list()
     for uri in first_content:
-        if uri not in second_content:
+        if uri not in second_content and uri[0:13] != "spotify:local":
             add_content.append(uri)
     start = 0
     stop = 100
