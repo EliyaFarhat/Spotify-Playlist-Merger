@@ -7,7 +7,7 @@ def get_playlist_content(sp, sid):
     '''
     :param sp: Spotify token.
     :param id: I.D. of the playlist.
-    :return: Dict of the content of the playlist (URI's), with the I.D. at the first index.
+    :return: List of the content of the playlist (URI's), with the playlist I.D. at the first index.
     '''
     try:
         r = sp.playlist_tracks(playlist_id=sid)
