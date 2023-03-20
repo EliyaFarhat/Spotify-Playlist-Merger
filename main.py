@@ -6,7 +6,7 @@ scopes = 'playlist-modify-public'
 def get_playlist_content(sp, sid):
     '''
     :param sp: Spotify token.
-    :param id: I.D. of the playlist.
+    :param sid: I.D. of the playlist.
     :return: List of the content of the playlist (URI's), with the playlist I.D. at the first index.
     '''
     try:
